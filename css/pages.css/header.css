@@ -1,0 +1,44 @@
+header{
+    background-color: #ced4f1;
+padding-top: 20px;
+padding-bottom: 20px;
+position: fixed;
+width: 100%;
+top: 0;
+
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar--menus{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.toogle{
+    width: 30px;
+    display: none;
+}
+.logo{
+    font-size: 55px;
+    font-weight: 500;
+    color: #4A99D3;
+}
+.navbar--menus li a{
+    color: black;
+
+}
+.navbar--menus li a:hover{
+    color: #4A99D3;
+}
+@media (max-width:400px) {
+    
+    .navbar--menus{
+        display: none;
+    }
+    .toogle{
+        display: block;
+    }
+}
